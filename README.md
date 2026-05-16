@@ -14,26 +14,9 @@ This project was tested on the Steam version with **BuildID 22469132**, and all 
 - Automatically restores original file modification timestamps from pak metadata
 - Performs CRC validation during extraction
 - Pure Python implementation
-- Supports the Steam release build `22469132`
+- Supports the latest Steam release build `22469132`
 - Successfully tested on all available game resources from the tested version
 - No additional Python dependencies required
-
----
-
-## Disclaimer
-
-This project is **not affiliated with or endorsed by Amazon Games**.
-
-The extracted assets remain the property of their respective copyright holders.
-
-Please use this tool responsibly and only for:
-
-- Personal backup
-- Modding research
-- Preservation
-- Educational analysis
-
-Do not redistribute copyrighted game assets.
 
 ---
 
@@ -51,6 +34,7 @@ Game page: https://store.steampowered.com/app/1063730/New_World_Aeternum/
 
 - Python 3.10+
 - `oo2core_8_win64.dll`
+- `~170 GB` of free disk space if extracting all game resources
 
 No additional Python packages or dependencies are required.
 
@@ -80,6 +64,7 @@ Example structure:
 ```text
 New World/
 ├── PaksList.lst
+├── NewWorldLauncher.exe
 ├── assets/
 ├── bin64/
 └── ...
@@ -127,6 +112,24 @@ This repository does not include any game files or copyrighted assets.
 Users are responsible for complying with local laws and the game's EULA.
 
 ---
+
+## Disclaimer
+
+This project is **not affiliated with or endorsed by Amazon Games**.
+
+The extracted assets remain the property of their respective copyright holders.
+
+Please use this tool responsibly and only for:
+
+- Personal backup
+- Modding research
+- Preservation
+- Educational analysis
+
+Do not redistribute copyrighted game assets.
+
+---
+
 
 ## License
 
